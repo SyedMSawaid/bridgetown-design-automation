@@ -3,8 +3,12 @@ An automation for installing TailwindCSS and purging any unnecessary files in a 
 
 In your Bridgetown project folder, run:
 
-`bin/bridgetown apply https://github.com/syedmsawaid/bridgetown-design-automation`
+```bash
+bin/bridgetown apply https://github.com/syedmsawaid/bridgetown-design-automation
+```
 
 You can also apply the automation when creating a new site:
 
+```bash
 `bridgetown new mysite --apply=https://github.com/syedmsawaid/bridgetown-design-automation`
+```
