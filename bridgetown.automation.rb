@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-say_status :design, "Installing Tailwind CSS..."
+say_status :design, "Installing Sawaid's Bridgetown Design..."
 
 confirm = ask "This configuration will remove all the unnecessary files. Do you want to continue? [Yn]"
 return unless confirm.casecmp?("Y")
