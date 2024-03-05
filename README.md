@@ -10,5 +10,5 @@ bin/bridgetown apply https://github.com/syedmsawaid/bridgetown-design-automation
 You can also apply the automation when creating a new site:
 
 ```bash
-`bridgetown new mysite --apply=https://github.com/syedmsawaid/bridgetown-design-automation`
+bridgetown new mysite --apply=https://github.com/syedmsawaid/bridgetown-design-automation
 ```
