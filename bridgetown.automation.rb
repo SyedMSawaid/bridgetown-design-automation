@@ -22,6 +22,6 @@ layout: default
 <h1 class="font-bold text-xl">You are live</h1>
 HTML
 
-`bin/bridgetown apply https://github.com/bridgetownrb/tailwindcss-automation`
+run "bin/bridgetown apply https://github.com/bridgetownrb/tailwindcss-automation"
 
 say_status :design, "Bridgetown has been configured for designing."
