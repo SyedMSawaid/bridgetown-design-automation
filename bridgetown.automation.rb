@@ -12,7 +12,7 @@ run "rm -rf ./src/_posts"
 run "rm ./src/about.md"
 run "rm ./src/index.md"
 run "rm ./src/posts.md"
-run "rm ./src/layouts/post.liquid"
+run "rm ./src/_layouts/post.liquid"
 
 create_file "./src/index.html", <<~HTML
 ---
@@ -22,6 +22,6 @@ layout: default
 <h1 class="font-bold text-xl">You are live</h1>
 HTML
 
-run "bin/bridgetown apply https://github.com/bridgetownrb/tailwindcss-automation"
+`bin/bridgetown apply https://github.com/bridgetownrb/tailwindcss-automation`
 
 say_status :design, "Bridgetown has been configured for designing."
